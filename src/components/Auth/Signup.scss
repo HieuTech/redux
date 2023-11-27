@@ -1,0 +1,54 @@
+ .header{
+display: flex;
+padding: 15px;;
+
+   .header__content{
+      display: flex;
+      margin-left: auto;
+      }
+   span{
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+   }
+ }
+ 
+ .signup-content{
+   background-color: #cac6c6;
+   max-width: 500px;
+   margin: 50px auto;
+   border-radius: 4px;
+   position: relative;
+   
+   .eye-icon{
+      position: absolute;
+      right: 113px;
+      top: 170px
+   
+   }
+   
+   .title{
+      text-align: center;
+      padding: 15px;
+   }
+   .form-control{
+      width: 300px;
+      margin: 15px auto;
+   }
+
+   .checkbox{
+
+      display: flex;
+      justify-content: center;
+      padding: 15px;
+      .form-check-input{
+         margin: 5px 10px;
+         align-items: center;
+      }
+   }
+ }
+
+.confirm{
+   display: flex;
+   justify-content: center;
+}
